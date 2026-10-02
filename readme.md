@@ -55,61 +55,38 @@
 <details>
 <summary>Table of contents (Click to show)</summary>
 
-- [GitHub Stats Card](#github-stats-card)
-    - [Hiding individual stats](#hiding-individual-stats)
-    - [Showing additional individual stats](#showing-additional-individual-stats)
-    - [Showing icons](#showing-icons)
-    - [Showing commits count for specified year](#showing-commits-count-for-specified-year)
-    - [Themes](#themes)
-    - [Customization](#customization)
-- [GitHub Extra Pins](#github-extra-pins)
-    - [Usage](#usage)
-    - [Options](#options)
-    - [Demo](#demo)
-- [GitHub Gist Pins](#github-gist-pins)
-    - [Usage](#usage-1)
-    - [Options](#options-1)
-    - [Demo](#demo-1)
-- [Top Languages Card](#top-languages-card)
-    - [Usage](#usage-2)
-    - [Options](#options-2)
-    - [Language stats algorithm](#language-stats-algorithm)
-    - [Exclude individual repositories](#exclude-individual-repositories)
-    - [Hide individual languages](#hide-individual-languages)
-    - [Show more languages](#show-more-languages)
-    - [Compact Language Card Layout](#compact-language-card-layout)
-    - [Donut Chart Language Card Layout](#donut-chart-language-card-layout)
-    - [Donut Vertical Chart Language Card Layout](#donut-vertical-chart-language-card-layout)
-    - [Pie Chart Language Card Layout](#pie-chart-language-card-layout)
-    - [Hide Progress Bars](#hide-progress-bars)
-    - [Change format of language's stats](#change-format-of-languages-stats)
-    - [Demo](#demo-2)
-- [WakaTime Stats Card](#wakatime-stats-card)
-    - [Options](#options-3)
-    - [Demo](#demo-3)
-- [All Demos](#all-demos)
-  - [Quick Tip (Align The Cards)](#quick-tip-align-the-cards)
-    - [Stats and top languages cards](#stats-and-top-languages-cards)
-    - [Pinning repositories](#pinning-repositories)
-- [Deploy on your own](#deploy-on-your-own)
-  - [GitHub Actions (Recommended)](#github-actions-recommended)
-  - [Self-hosted (Vercel/Other) (Recommended)](#self-hosted-vercelother-recommended)
-    - [First step: get your Personal Access Token (PAT)](#first-step-get-your-personal-access-token-pat)
-    - [On Vercel](#on-vercel)
-    - [:film\_projector: Check Out Step By Step Video Tutorial By @codeSTACKr](#film_projector-check-out-step-by-step-video-tutorial-by-codestackr)
-    - [On other platforms](#on-other-platforms)
-    - [Available environment variables](#available-environment-variables)
-  - [Keep your fork up to date](#keep-your-fork-up-to-date)
-- [:sparkling\_heart: Support the project](#sparkling_heart-support-the-project)
-</details>
-
-# Important Notices <!-- omit in toc -->
-
-<table><tr><td>
-⚠️<b>Warning</b>
-
-The public Vercel instance at `https://github-readme-stats.vercel.app/api` is best-effort and can be unreliable due to rate limits and traffic spikes (see [#1471](https://github.com/anuraghazra/github-readme-stats/issues/1471)). We use caching to improve stability (see [common options](#common-options)), but for reliable cards we recommend [self-hosting](#deploy-on-your-own) (Vercel or other) or using the [GitHub Actions workflow](#github-actions-recommended) to generate cards in your [profile repository](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme).
-</td></tr></table>
+*   [GitHub Stats Card](#github-stats-card)
+    *   [Hiding individual stats](#hiding-individual-stats)
+    *   [Showing additional individual stats](#showing-additional-individual-stats)
+    *   [Showing icons](#showing-icons)
+    *   [Themes](#themes)
+    *   [Customization](#customization)
+*   [GitHub Extra Pins](#github-extra-pins)
+    *   [Usage](#usage)
+    *   [Demo](#demo)
+*   [Top Languages Card](#top-languages-card)
+    *   [Usage](#usage-1)
+    *   [Language stats algorithm](#language-stats-algorithm)
+    *   [Exclude individual repositories](#exclude-individual-repositories)
+    *   [Hide individual languages](#hide-individual-languages)
+    *   [Show more languages](#show-more-languages)
+    *   [Compact Language Card Layout](#compact-language-card-layout)
+    *   [Donut Chart Language Card Layout](#donut-chart-language-card-layout)
+    *   [Donut Vertical Chart Language Card Layout](#donut-vertical-chart-language-card-layout)
+    *   [Pie Chart Language Card Layout](#pie-chart-language-card-layout)
+    *   [Hide Progress Bars](#hide-progress-bars)
+    *   [Demo](#demo-1)
+*   [Wakatime Stats Card](#wakatime-stats-card)
+    *   [Demo](#demo-2)
+*   [All Demos](#all-demos)
+    *   [Quick Tip (Align The Cards)](#quick-tip-align-the-cards)
+*   [Deploy on your own](#deploy-on-your-own)
+    *   [On Vercel](#on-vercel)
+        *   [:film\_projector: Check Out Step By Step Video Tutorial By @codeSTACKr](#film_projector-check-out-step-by-step-video-tutorial-by-codestackr)
+    *   [On other platforms](#on-other-platforms)
+    *   [Disable rate limit protections](#disable-rate-limit-protections)
+    *   [Keep your fork up to date](#keep-your-fork-up-to-date)
+*   [:sparkling\_heart: Support the project](#sparkling_heart-support-the-project)
 
 <table><tr><td>
 ⚠️<b>Warning</b>
@@ -1071,4 +1048,4 @@ Contributions are welcome! <3
 
 Made with :heart: and JavaScript.
 
-</details>
+test2
